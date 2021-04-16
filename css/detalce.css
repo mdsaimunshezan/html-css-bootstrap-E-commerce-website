@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main_bg:#242424;
+    --primary_color:#a8741a;
+    --white:white;
+    --secondary_color:#2f2f2f;
+    --gray:gray;
+}
+body{
+    background: var(--main_bg);
+    color: var(--white);
+}
+.prodect_detalce_title h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding: 40px 0px;
+    padding-bottom: 0px;
+}
+.prodect_detalce_info h3 {
+    font-weight: 400;
+}
+.prodect_detalce_revews .ra {
+    color: var(--primary_color);
+    font-size: 12px;
+    padding: 10px 0px;
+}
+.prodect_detalce_revews .ra_non {
+    font-size: 12px;
+}
+.prodect_detalce_info span {
+    color: var(--primary_color);
+}
+.prodect_detalce_info small {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 3px 0px;
+}
+.prodect_detalce_info h2 {
+    color: var(--primary_color);
+    padding: 20px 0px;
+}
+.prodect_detalce_info .old_price {
+    text-decoration: line-through;
+    margin-left: 20px;
+    color: var(--white);
+}
+.prodect_detalce_info button {
+    background: var(--primary_color);
+    padding: 10px 30px;
+    color: var(--white);
+    border: 1px solid var(--primary_color);
+    font-size: 20px;
+    border-radius: 5px;
+}
+.prodect_quantaty input {
+    width: 80px;
+    background: var(--secondary_color);
+    padding: 5px 10px;
+    border: 1px solid var(--secondary_color);
+    margin-left: 20px;
+    color: var(--white);
+    margin-bottom: 20px;
+    
+}
+.prodect_detalce_title a {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.prodect_detalce_img img {
+    width: 100%;
+ 
+}
+
+
+
+
+
+
+@media(max-width:280px){
+    .prodect_detalce_title h1 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        padding: 40px 0px;
+        padding-bottom: 0px;
+    }
+    .prodect_detalce_title a {
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+
+}
